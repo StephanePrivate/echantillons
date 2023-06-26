@@ -9,6 +9,7 @@ class Texture extends Model
 {
     use HasFactory;
 
+    
     public function products()
     {
         return $this->belongsTo(Product::class);
